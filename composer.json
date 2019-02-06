@@ -19,7 +19,6 @@
   ],
   "require": {
     "php": ">=7.0",
-    "symfony/var-dumper": "^3.4",
     "guzzlehttp/guzzle": "^6.3@dev"
   },
   "autoload": {
