@@ -1,0 +1,40 @@
+{
+  "name": "klarennns/php-correosexpress-api",
+  "type": "project",
+  "description": "Api Client to connect to correosexpress Services",
+  "minimum-stability": "dev",
+  "keywords": [
+    "Api",
+    "Client",
+    "correosexpress"
+  ],
+  "homepage": "https://github.com/klarennns/php-correosexpress-api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Albert Claret",
+      "email": "klarensone@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "symfony/var-dumper": "^3.4",
+    "guzzlehttp/guzzle": "^6.3@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "php phars/phpunit.phar --color=always",
+    "test-coverage": "php phars/phpunit.phar --coverage-html coverage",
+    "test-coverage-cli": "php phars/phpunit.phar --coverage-text"
+  }
+}
